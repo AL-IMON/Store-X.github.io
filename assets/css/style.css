@@ -1,0 +1,73 @@
+/*--------------------------------------------------------------
+#                               General
+--------------------------------------------------------------*/
+
+body {font-family: 'Roboto';background-color: #ffffff;overflow-x: hidden;box-sizing: border-box;user-select: none;}
+a:link,a:visited {text-decoration: none;cursor: pointer;color: unset;}
+.container{max-width: 1280px;}
+
+/*--------------------------------------------------------------
+#                               Header
+--------------------------------------------------------------*/
+
+/*------side navbar----*/
+
+.sidenav {height: 660px;width: 0;position: fixed;z-index: 1;top: 0;left: 0;background-color: #fff;overflow-x: scroll;transition: 0.5s;padding-top: 60px; z-index: 999;}
+.side_toogler{font-size:30px;cursor:pointer;margin-top: 6px;}
+.sidenav ul{list-style-type: none;}
+.sidenav ul li{margin: 10px 30px 10px 0px;border-bottom: 1px solid rgba(128, 128, 128, 0.466);}
+.sidenav a {text-decoration: none;font-size: 18px;color: #3f3e3e;display: block;transition: 0.3s;margin-bottom: 10px;}
+.sidenav a:hover {color: black;}
+.sidenav .closebtn {position: absolute;top: 0;right: 25px;font-size: 36px;margin-left: 50px;}
+
+/*------lead navbar----*/
+
+#lead_navbar .navbar{float: left; margin-left: -74px;}
+#lead_navbar .navbar li{text-transform: uppercase;font-weight: bold;}
+.Section_right_panel{float: right;}
+.Section_right_panel li{margin-left: 20px;}
+.searchbar{margin-bottom: auto; margin-top: auto;height: 40px;background-color: #fff;border-radius: 30px;padding: 10px;}
+.search_input{color: black; border: 0;outline: 0;background: none;width: 0;caret-color:transparent;line-height: 40px;
+transition: width 0.4s linear;}
+.searchbar:hover > .search_input{padding: 0 10px;width: 70px;caret-color:red;transition: width 0.4s linear;}
+.searchbar:hover > .search_icon{background: rgba(95, 95, 95, 0.63);color: #e74c3c;}
+.search_icon{height: 40px;width: 40px;float: right;display: flex;justify-content: center;align-items: center;
+border-radius: 50%;color:white;text-decoration:none;}
+
+/*------lead slider----*/
+#lead-slider img{height: 500px; opacity:0.8; z-index:-1;background-color: rgba(255, 255, 255, 0.5);}
+#lead-slider .carousel-caption{opacity:1; z-index:999;margin-bottom: 120px; }
+#lead-slider .carousel-caption h4,h1{text-transform: uppercase;font-weight: bold;}
+#lead-slider .button{border: none;border-radius: 50px;padding: 15px 20px;background: #338814;color: white;font-weight: bold;}
+
+/*--------------------------------------------------------------
+#                               body
+--------------------------------------------------------------*/
+
+/*------top-body----*/
+#top-body{background: #2e880e;color: white;}
+#top-body .row{padding: 50px 35px;}
+#top-body p{font-weight: 400;font-size: 14px;color: rgba(245, 245, 245, 0.719);}
+#top-body img{width: 100px;height: 100px; background: transparent;}
+
+/*------popular categories----*/
+
+.category{color: black;text-align: center;font-weight: bold;}
+.category h3{font-weight: bold;}
+.category__carousel{margin: 20px 100px;}
+#category_carousel  img{height: 170px;width:350px; margin-bottom: 30px;}
+#category_carousel .carousel-caption{margin-bottom: 0px;float: left;left: -120px;}
+#category_carousel .carousel-caption h4{color: black;font-weight: bold;}
+#category_carousel .carousel-caption h6{font-weight: normal;color: black;margin-top: 10px;}
+#category_carousel .carousel-caption a{text-decoration: underline;color: #5f942c;margin-top: 15px;}
+
+
+/*------fresh Product---*/
+
+#fresh_product .fresh__product{margin: 20px 100px;}
+
+#fresh_product .fresh_product{border: solid 1px #a5a4a46e; padding: 25px;text-align: center; margin-bottom: 30px;}
+#fresh_product .fresh_product p{font-weight: bold;}
+#fresh_product .fresh_product .product_pic img{width: 110px;height: 90px;}
+#fresh_product .fresh_product .review img{width: 120px;height: 25px;}
+#fresh_product .fresh_product .price{color: #338814;}
